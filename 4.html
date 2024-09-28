@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<style> 
+         
+		 h1{
+		 background-color: black;
+			color: teal;
+			border: 20px;
+			padding: 40px;
+			margin: 0px;
+		    font-family: 'Times New Roman', Times, serif;
+			font-size: 50px;
+		}
+		div{
+			overflow: hidden;
+			background-color: gray;
+			margin: 0px;
+			padding: 0px;
+			position: sticky;
+			top: 0%;
+		}
+		div a{
+			
+			float: inline-start;
+			color: black;
+	        padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 30px;
+			padding-right: 30px;
+			text-decoration: none;
+		}
+		div a:hover{
+			background-color: rgb(3, 3, 3);
+			color: rgb(255, 255, 255);
+			border-radius: 10px;
+		}
+		body{
+		background-image: url(7.jpg);
+		
+	  }
+	  legend{
+		font-style: italic;
+		font-weight: 200;
+		color: aliceblue;
+		
+	  }
+	label{
+		color: aliceblue;
+		font-weight: 200;
+		font-style: italic;
+		
+
+	}
+	fieldset{
+		width: 370px;
+	}
+	input{
+	display: inline;
+	padding: 3px;
+	border: 2px solid blue;
+	border-radius: 5px;
+	}
+	:focus{
+		background-color: gold;
+		color: navy;
+	}
+	p{
+		font-weight: 600;
+		display: inline;
+		color: aliceblue;
+	}
+	button{
+		border-radius: 5px;
+		background-color: aqua;
+		color: black;
+		border: 1px solid aqua;
+		
+		position: relative;
+		left: 30%;
+		
+		padding: 3px;
+		width: 120px;
+		margin: 10px;
+	}
+	button:hover{
+		background-color: aquamarine;
+	}
+	fieldset{
+		border: 2px solid black;
+		border-radius: 5px;
+		position: relative;
+		left: 38%;
+		box-shadow: 0px 0px 15px black;
+		
+		
+	}
+	fieldset:hover{
+		border: 2px solid whitesmoke;
+		box-shadow: 0px 0px 15px whitesmoke;
+	}
+
+       </style> 
+</head>
+<body>
+<h1 align="center">Wellcome To My Portfolio</h1>
+<div>
+<a href="5.html">Home</a>
+<a href="1.html">My skill</a>
+
+<a href="4.html">Contact</a><br>
+</div>
+<fieldset>
+	<legend align="center">Fill the given form</legend>
+		
+	<form>
+	<label>Full Name:</label>
+	<input type="text" name="fullname" placeholder="Enter your name"><br><br><br>
+	<label>Phone number:</label>
+	<input type="number" name="phonenumber" placeholder="Enter your number"><br><br><br>
+	<label>Chose your country-</label>
+	<select>
+		<option>Nepal</option>
+		<option>India</option>
+		<option>China</option>
+	</select><br><br><br>
+<label>Chose your gender:</label>
+	<input type="radio" name="gender"><p>Male</p>
+	<input type="radio" name="gender"><p>Female</p>
+	<input type="radio" name="gender"><p>Other</p><br><br><br>
+<label>What is your intrest-</label>
+<input type="checkbox" name="playing"><p>Playing</p>
+<input type="checkbox" name="dancing"><p>Dancing</p>
+<input type="checkbox" name="singing"><p>Singing</p>
+<br><br>
+<button>Submit</button>
+
+</form>
+
+	
+</fieldset>
+</body>
+</html>

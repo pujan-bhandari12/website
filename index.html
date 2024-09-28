@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+<style>
+    
+        
+     
+   #b{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    
+    
+   }
+   
+   
+   .d{
+        
+      display: flex;
+     justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 490px;
+    background-image: url(3.avif);
+    box-shadow: 0px 0px 15px black;
+    border-radius: 15px;
+    
+    
+
+        
+
+    }
+    .d:hover{
+        box-shadow: 0px 0px 15px gray;
+    }
+    h1{
+        
+        background-color: gainsboro;
+        width: 350px;
+        border-radius: 6px;
+
+    }
+    body{
+        
+        background-image: url(2.jpg);
+        font-family: 'Playfair Display', serif;
+        
+    }
+  
+    #n5{
+        padding: 5px 10px;
+    }
+   #n1,#n2,#n3,#n4,#n5{
+    border-radius: 5px;
+    border: 3px solid wheat;
+    box-shadow: 0px 0px 8px wheat;
+    
+   }
+   #n1,#n2,#n3,#n4{
+    width: 300px;
+    padding: 5px;
+
+   }
+
+    
+
+    input:focus{
+        color: navy;
+        
+        
+        
+    }
+    h3{
+        color: aquamarine;
+        
+        
+        
+    }
+    #a{
+        display: flex;
+     justify-content: center;
+    align-items: center;
+        
+    }
+    
+     
+    
+    legend{
+        font-weight: 600;
+        color: aqua;
+    }
+    .c{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    fieldset{
+        border-radius: 10px;
+        border: 2px solid aqua;
+        
+    }
+    
+    
+    
+    
+</style>
+</head>
+
+<body>
+    <script>
+        function data(){
+            var a=document.getElementById("n1").value;
+            var b=document.getElementById("n2").value;
+            var c=document.getElementById("n3").value;
+            var d=document.getElementById("n3").value;
+
+            if(a==""||b==""||c==""||d=="")
+        {
+            alert("All Field Are Mendatory")
+            return false;
+
+        }
+           else if(b.length<10||b.length>10)
+           {
+            alert("Number Should Be Of 10")
+            return false;
+
+           }
+           else if(isNaN(b))
+           {
+            alert("Only Is Number Is Allowed")
+            return false;
+
+           }
+           else if(d!==c){
+            alert("Please Enter Same Password")
+            return false;
+           }
+           else if(a!=="pujan bhandari"){
+            alert("Write The Correct User Id")
+            return false;
+           }
+           else if(c!=="123321"){
+            alert("Write The Correct Password")
+            return false;
+           }
+           else{
+            true;
+           }
+      
+        }
+        
+        </script>
+       <div id="a"><h1 align="center">LOGIN</h1> </div>
+            <div id="b"><span class="d"><fieldset>
+<legend align="center">FILL THE FORM</legend>
+        <form onsubmit="return data()" action="5.html">
+
+    
+            <h3>User Id:</h3> <input type="text" id="n1" placeholder="User Id"><br>
+            <h3>Contact:</h3> <input type="text" id="n2" placeholder="Contact"><br>
+            <h3>Password:</h3> <input type="password" id="n3" placeholder="Password"><br>
+            <h3>Confirm Password:</h3> <input type="password" id="n4" placeholder="Confirm Password"><br><br><br>
+        <span class="c" align="center">    <input type="submit" value="Submit Your Data" id="n5"></span><br>
+        </form>
+        
+ </fieldset>
+</span>
+</div>
+
+</body>
+</html>

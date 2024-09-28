@@ -1,0 +1,205 @@
+
+
+.container {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    
+    margin: 0 auto;
+    position: sticky;
+    top: 0%;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li  #b,#c,#d,#e{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.hero {
+    
+    
+    background: #f4f4f4;
+    padding: 12px;
+    padding-left: 70px;
+    text-align: center;
+}
+.hero p{
+    padding-right: 60px;
+}
+
+.products {
+    padding: 20px 0;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 27%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    margin: 10px 0;
+    text-align: center;
+    padding-right: 70px;
+}
+
+.product button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h3{
+    padding-left: 80px;
+    
+    font-weight: 700;
+}
+
+.fa-sharp{
+    color: gray;
+    cursor: pointer;
+    float: right;
+    padding-right: 50px;
+    font-size: 23px;
+    position: relative;
+    bottom: 35px;
+    cursor: pointer;
+
+    
+}
+.box img{
+   width: 100px;
+    height: 100px;
+} 
+
+.product:hover{
+    box-shadow: 0px 0px 50px black;
+    
+}
+
+.cart{
+    position: absolute;
+    top: 25%;
+    right: 2rem;
+    padding: 8px;
+    background-color: whitesmoke;
+    border: 1px solid;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 5px;
+    width: 280px;
+    display: none;
+    
+    
+    
+}
+
+    
+
+.cart .box{
+    
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+}
+#g{
+    color: #555;
+    float: right;
+    position: relative;
+    left: 40px;
+    bottom: 24px;
+
+}
+.box h4{
+    
+    position: relative;
+    top: 18px;
+    font-size: 18px;
+}
+.price{
+    font-size: 13px;
+    position: relative;
+    bottom: 7px;
+    
+}
+.quantity{
+    font-size: 13px;
+    position: relative;
+    bottom: 7px;
+}
+.total{
+text-align: center;
+font-size: 30px;
+margin: 10px;
+}
+.btn{
+display: flex;
+justify-content: center;
+text-decoration: none;
+color: black;
+background-color: whitesmoke;
+padding: 10px;
+border: 1.8px solid ;
+border-radius: 8px;
+box-shadow: 0px 0px 5px black;
+margin: 8px;
+    
+}
+.btn:hover{
+    background-color: green;
+    font-size: 17px;
+    
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
